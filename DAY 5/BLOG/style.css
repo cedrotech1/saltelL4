@@ -1,0 +1,96 @@
+.logo,.menu,.button{
+    /* background-color: blue; */
+    padding: 0.1cm;
+    width: 30%;
+}
+.headercontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.d{
+    color: rgb(226, 163, 87);
+}
+.btn{
+    background-color: rgb(226, 163, 87);
+    color: white;
+    width: 4cm;
+    /* height: 1cm; */
+    font-size: 23px;
+    padding: 0.3cm;
+    border: 0px;
+}
+/* row 2 */
+.text,.image{
+    /* background-color: rgb(115, 115, 184); */
+    /* height: 60vh; */
+    padding: 2cm;
+    width: 45%;
+}
+.contentcontainer,.footercontainer{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1cm; */
+}
+.visit,.latest,.information,.address{
+    /* background-color: blue; */
+    /* height: 50vh; */
+    width: 25%;
+    margin: 2px;
+}
+/* MENU CSS */
+ul li,ol li{
+    list-style: none;
+    font-style: bold;
+}
+.information a{
+    color: white;
+    text-decoration: none;
+}
+.textfooter{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu a:hover{
+    color: rgb(205, 171, 61);
+}
+.pic{
+    width: 100%;
+}
+
+.footercontainer{
+    padding: 1cm;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .headercontainer,.contentcontainer,.footercontainer{
+        flex-direction: column;
+    }
+    .logo,.menu,.button,.text,.image,.visit,.latest,.information,.address{
+        width: 100%;
+        margin: 3px;
+    }
+    .menu ul{
+        flex-direction: column;
+
+    }
+    .menu ul li{
+        margin: 0.3cm;
+    }
+    
+}

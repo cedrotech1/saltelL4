@@ -1,0 +1,18 @@
+.header{
+    background-color: aqua;
+    height: 3cm;
+    width: 100%;
+}
+.text{
+    background-color: rgb(55, 61, 61);
+    height: 10cm;
+    width: 50%;
+}
+.image{
+    background-color: rgb(8, 115, 115);
+    height: 10cm;
+    width: 50%;
+}
+.row{
+    display: flex;
+}

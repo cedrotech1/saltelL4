@@ -1,0 +1,89 @@
+.header{
+    background-color: aqua;
+    height: 2cm;
+    width: 100%;
+}
+.row0{
+    display: flex;
+}
+.d1{
+    background-color: blueviolet;
+    height: 7cm;
+    width: 45%;
+}
+.d2{
+    background-color: rgb(82, 74, 91);
+    height: 7cm;
+    width: 45%;
+}
+.row1{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1cm;
+}
+/* row 2 */
+
+.div1,.div2,.div3{
+    background-color: rgb(82, 74, 91);
+    height: 7cm;
+    width: 30%;
+    margin: 2px;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1cm;
+}
+
+.large{
+    background-color: blue;
+    width: 70%;
+    height: 6cm;
+}
+.small{
+    background-color: aqua;
+    width: 25%;
+    height: 6cm;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1cm;
+}
+.left{
+    background-color: rgb(105, 131, 131);
+    width: 50%;
+    height: 6cm; 
+}
+.right{
+    background-color: rgb(46, 51, 51);
+    width: 50%;
+    height: 6cm; 
+}
+.row4{
+    display: flex;
+    margin-top: 1cm;
+}
+.x1{
+    background-color: blueviolet;
+    height: 6cm;
+    width: 50%;
+}
+.x2{
+    background-color: rgb(15, 8, 21);
+    height: 6cm;
+    width: 50%;
+}
+.rowx{
+    display: flex;
+}
+/* responsiveness */
+@media screen and (max-width:786px) {
+  .row1{
+    flex-direction: column;
+  }
+  .d1,.d2{
+    width: 100%;
+  }
+    
+}
